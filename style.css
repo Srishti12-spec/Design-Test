@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+}
+
+.banner {
+    display: flex;
+}
+
+.bg-right{
+    background-image: url("./Images/banner-bg.jpg");
+    background-position: right; 
+    background-repeat: no-repeat; 
+    width: 80%;
+}
+
+
+.bg-right p {
+    width: 50%;
+    background-repeat: no-repeat; 
+    font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    position: absolute;
+    top: 400px;
+    left:550px;
+    transform: scale(2, 1);
+    
+    
+}
+
+.donate{
+    position: absolute;
+    top: 250px;
+    left: 1170px;
+    color: white;
+    transform-origin: 0 0;
+    transform: rotate(-90deg);
+    background-color: red;
+    width: 125px;
+    height: 35px;
+    padding-top: 9px;
+    padding-left: 5px;
+}
+
+.rupee{
+    position: absolute;
+    top: 130px;
+    left: 1171px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.logo-right{
+    width: 200px;
+}
+.fb-logo{
+    display: block;
+    margin-left: 60px;
+    margin-bottom: 15px;
+}
+.logo1{
+    width: 170px;
+    margin-bottom: 370px;
+    
+}
+.nav {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    margin-left: 250px;
+    background-color: rgb(100, 138, 200);
+    color: white;
+    width: 874px;
+    margin-top: -13px;
+    padding-left: 10px;
+    padding-bottom: 18px;
+    padding-right: 10px;
+    transform: scale(1.2, 1);
+    
+    
+}
+
+.nav li a {
+    display: block;
+    padding: 16px 5px;
+}
+
+.menu {
+    width: 35px;
+    height: 5px;
+    
+    margin: 6px 0;
+    background-color: white;
+}
+
+.crst-in-action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.img-gallery {
+    width: 220px;
+    height: 150px;
+    padding: 16px;
+    
+   
+   
+}
+
+.crst h1{
+    font-size: 15px;
+    margin-left: 160px;
+    
+}
+ .crst p{
+    transform-origin: 0 0;
+    transform: rotate(-90deg);
+    left: 200px;
+    top: 980px;
+    font-size: 15px;
+    position: absolute;
+}
+
+.circle{
+   margin-top: -20px;
+   position: absolute;
+}
+.team{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.team-para{
+    width: 40%;
+    margin-right: 30px;
+}
+.team-title{
+    width: 10%;
+    margin-right: 30px;
+}
+.team-pic{
+    width: 10%;
+    margin-right: 30px;
+}
+.green-txt{
+    color: rgb(85, 165, 85);
+}
+.vis{
+    transform-origin: 0 0;
+    transform: rotate(-90deg);
+    position: absolute;
+    left: 110px;
+    display: flex;
+
+}
+.one {
+    top: 1142px;
+}
+.two {
+    top: 1350px;
+}
+.three {
+    top: 1550px;
+}
+.four {
+    top: 1150px;
+    left: 1100px
+}
+
+.five{
+    top: 1850px;
+}
+.vis-green{
+    height: 10px;
+    width: 20px;
+    background-color: green;
+    margin: 5px 3px 0 3px;
+}
+.read-more {
+    display: flex;
+}
+.programs{
+    display: flex;
+    justify-content: center;
+}
+.program-one{
+    background-image: url("Images/program1.jpg");
+    height: 200px ;
+    width: 300px;
+    margin-right: 40px;
+    color: white;
+}
+.pgtwo{
+    background-image: url("./Images/program2.jpg");
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: black;
+}
+
+.footer-ele{
+    margin: 30px 20px;
+    color:white;
+}
+
+section{
+    margin-bottom: 30px;
+    
+}
